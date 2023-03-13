@@ -1,0 +1,37 @@
+$ git log
+commit 88e404143452f81b6789d6e08a4cbf4f75f69b30 (HEAD -> master, origin/master, bug3)
+Author: viks <viktor-roboxs-atanasoski@Hotmail.com>
+Date:   Mon Mar 13 14:22:06 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit ea1ff7300f7fc9b3efae548f5f00aaac8edaed2c
+Merge: 5d20e9d 382ea5a
+Author: viks <viktor-roboxs-atanasoski@Hotmail.com>
+Date:   Mon Mar 13 15:03:31 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 382ea5ad8ab07f82dc709122362b318862db9aa2 (bug2)
+Author: viks <viktor-roboxs-atanasoski@Hotmail.com>
+Date:   Mon Mar 13 14:20:50 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 5d20e9d09b41d308a06d4f9c7a369f539d2a310b (bug1)
+Author: viks <viktor-roboxs-atanasoski@Hotmail.com>
+Date:   Mon Mar 13 14:19:33 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 6b32571944cd7f370fa4c81736318084ed018340
+Author: viks <viktor-roboxs-atanasoski@Hotmail.com>
+Date:   Mon Mar 13 14:15:27 2023 +0100
+
+    Add java class
+
+commit 8be2d06c376f176e72e7e78c7edb58e8bccefe25
+Author: viks <viktor-roboxs-atanasoski@Hotmail.com>
+Date:   Mon Mar 13 14:13:35 2023 +0100
+
+    Initial commit

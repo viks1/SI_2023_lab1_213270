@@ -1,0 +1,31 @@
+					Dokumentacija L1, Viktor Atanasoski 3/13/2023
+
+4. Inicijalizirame git so komandata: git init, preku koja se pravi prazno .git repo vo nashiot folder
+5. Go povrzuvame lokalniot repozitorium so odaleceniot preku komandata: 
+	git remote add origin https://github.com/viks1/SI_2023_lab1_213270.git
+6. Kreirame README.md file so komandata: echo "Viktor Atanasoski 213270" >> README.md
+	git add README.md, i go pravime nashiot prv commit so komandata: git commit -m "Initial commit"
+7. git add SILab1.java, git commit -m "Add java class"
+8. Gi sinhronizirame promenite: git push -u origin master
+9. Koristejki ja ovaa komanda sozdavame novi granki: git branch bug1; git branch bug2; git branch bug3; 
+10. Se prefrlame na edna od grankite koristejki: git checkout bug1
+
+//pred da napravam git add, go editirav fajlot spored navedenite problemi
+
+11. git add SILab1.java; git commit -m "Fix wrong loop for reading"
+12. git checkout bug2
+13. git add SILab1.java; git commit -m "Fix wrong condition in filterOddNumbers"
+14. git checkout bug3
+15. git add SILab1.java; git commit -m "Fix method sumEvenNumbers"
+16. git push origin master
+17. git checkout master
+18. git merge bug1 / (bez konflikti, se koristeshe strategijata Fast-forwarding)
+19. git push origin master
+20. git merge bug2 / (bez konflikti, se koristese strategijata ort (Ostensibly Recursive's Twin),
+	odnosno edna od rekurzivnite strategii)
+21. git push origin master
+22. git checkout bug3
+23. git rebase master
+24. git checkout master
+25. git merge bug3 / (bez konflikti, se koristeshe strategijata Fast-forwarding)
+26. git push origin master
